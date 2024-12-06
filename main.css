@@ -1,0 +1,51 @@
+a {
+  color: blue;
+  text-decoration: none;
+}
+.image {
+  text-align: center;
+}
+.trichDan {
+  color: gray;
+  text-align: center;
+  font-size: 15px;
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  img {
+    width: 60%;
+  }
+}
+@media (max-width: 480px) {
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  img {
+    justify-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
